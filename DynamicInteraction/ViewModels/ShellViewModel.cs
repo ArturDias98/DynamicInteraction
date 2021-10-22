@@ -11,22 +11,35 @@ namespace DynamicInteraction.ViewModels
     public class ShellViewModel : Conductor<object>.Collection.AllActive
     {
         private BindableCollection<CheckBoxModel> _checkBoxModel;
+        private GraphViewModel _cartesianGraph;
         public ShellViewModel()
         {
-
-        }      
-
+            CartesianGraph = new GraphViewModel();
+        }
         public BindableCollection<CheckBoxModel> CheckBoxModel
         {
             get 
             { 
                 return _checkBoxModel; 
             }
-            set 
-            { 
+            set
+            {
                 _checkBoxModel = value;
-                NotifyOfPropertyChange(() => CheckBoxModel)
-;            }
+                NotifyOfPropertyChange(() => CheckBoxModel);
+            }
+        }
+
+        public GraphViewModel CartesianGraph
+        {
+            get
+            { 
+                return _cartesianGraph; 
+            }
+            set
+            {
+                _cartesianGraph = value;
+                NotifyOfPropertyChange(() => CartesianGraph);
+            }
         }
 
     }

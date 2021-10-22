@@ -75,3 +75,5 @@ C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\Dyn
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\ref\DynamicInteraction.dll
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction.pdb
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction.genruntimeconfig.cache
+C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\Views\GraphView.g.cs
+C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\Views\GraphView.baml
