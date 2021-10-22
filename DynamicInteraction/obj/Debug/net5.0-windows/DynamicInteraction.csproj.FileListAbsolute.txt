@@ -58,14 +58,12 @@ C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\Dyn
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction.csproj.AssemblyReference.cache
-C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\ViewModels\ShellViewModel.g.cs
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\Views\ShellView.g.cs
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction_MarkupCompile.cache
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction_MarkupCompile.lref
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\App.baml
-C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\ViewModels\ShellViewModel.baml
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\Views\ShellView.baml
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction.g.resources
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction.GeneratedMSBuildEditorConfig.editorconfig
