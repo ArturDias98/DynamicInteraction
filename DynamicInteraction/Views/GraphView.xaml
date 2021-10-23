@@ -4,9 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DynamicInteraction.Views" 
-             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf" xmlns:viewmodels="clr-namespace:DynamicInteraction.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:GraphViewModel}"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="200" d:DesignWidth="400">
     <Grid>
         <Grid>
             <Grid.Resources>
@@ -23,24 +23,24 @@
             </TextBlock>
             <lvc:CartesianChart Grid.Row="2" DataTooltip="{x:Null}" Hoverable="False" >
                 <lvc:CartesianChart.AxisY>
-                    <lvc:Axis Foreground="DodgerBlue" Title="Blue Axis"/>
-                    <lvc:Axis Foreground="IndianRed" Title="Red Axis" Position="RightTop">
+                    <lvc:Axis Foreground="DodgerBlue" />
+                    <lvc:Axis Foreground="IndianRed" Position="RightTop">
                         <lvc:Axis.Separator>
                             <lvc:Separator Style="{StaticResource CleanSeparator}"></lvc:Separator>
                         </lvc:Axis.Separator>
                     </lvc:Axis>
-                    <lvc:Axis Foreground="DarkOliveGreen" Title="Green Axis" Position="RightTop">
+                    <lvc:Axis Foreground="DarkOliveGreen" Position="RightTop">
                         <lvc:Axis.Separator>
                             <lvc:Separator Style="{StaticResource CleanSeparator}"></lvc:Separator>
                         </lvc:Axis.Separator>
                     </lvc:Axis>
                 </lvc:CartesianChart.AxisY>
                 <lvc:CartesianChart.Series>
-                    <lvc:LineSeries Values="1,5,3,5,3" ScalesYAt="0" Fill="Transparent" PointGeometry="{x:Null}"/>
+                    <lvc:LineSeries Values="1,5,3,5,3" ScalesYAt="0" Fill="Transparent" PointGeometry="{x:Null}"  Visibility="{Binding VisibilityList[0], Mode=OneWay}"/>
                     <!--Scales at blue axis, Axis[0]-->
-                    <lvc:LineSeries Values="20,30,70,20,10"  ScalesYAt="1" Fill="Transparent" PointGeometry="{x:Null}"/>
+                    <lvc:LineSeries Values="1,4,2,4,2"  ScalesYAt="1" Fill="Transparent" PointGeometry="{x:Null}" Visibility="{Binding VisibilityList[1]}"/>
                     <!--Scales at red axis, Axis[1]-->
-                    <lvc:LineSeries Values="600,300,200,600,800"  ScalesYAt="2" Fill="Transparent" PointGeometry="{x:Null}"/>
+                    <lvc:LineSeries Values="1,7,4,7,4"  ScalesYAt="2" Fill="Transparent" PointGeometry="{x:Null}" Visibility="{Binding VisibilityList[2]}"/>
                     <!--Scales at green axis, Axis[2]-->
                 </lvc:CartesianChart.Series>
             </lvc:CartesianChart>

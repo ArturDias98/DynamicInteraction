@@ -77,3 +77,7 @@ C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\Dyn
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\DynamicInteraction.genruntimeconfig.cache
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\Views\GraphView.g.cs
 C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\obj\Debug\net5.0-windows\Views\GraphView.baml
+C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\Artur Dias\Documents\Projetos\DynamicInteraction\DynamicInteraction\DynamicInteraction\bin\Debug\net5.0-windows\System.Windows.Interactivity.dll

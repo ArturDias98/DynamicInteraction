@@ -188,6 +188,26 @@
           }
         }
       },
+      "MvvmLightLibs/5.4.1.1": {
+        "runtime": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/GalaSoft.MvvmLight.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
       "runtime.linux-arm.runtime.native.System.IO.Ports/5.0.0-rtm.20519.4": {
         "runtimeTargets": {
           "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
@@ -1143,6 +1163,13 @@
       "sha512": "sha512-5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
       "path": "microsoft.xaml.behaviors.wpf/1.1.19",
       "hashPath": "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512"
+    },
+    "MvvmLightLibs/5.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
+      "path": "mvvmlightlibs/5.4.1.1",
+      "hashPath": "mvvmlightlibs.5.4.1.1.nupkg.sha512"
     },
     "runtime.linux-arm.runtime.native.System.IO.Ports/5.0.0-rtm.20519.4": {
       "type": "package",

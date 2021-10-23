@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.Command;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,6 @@ namespace DynamicInteraction.Models
     {
         public bool IsChecked { get; set; }
         public string Name { get; set; }
+        
     }
 }

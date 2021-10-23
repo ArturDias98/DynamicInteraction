@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PInVT4V6uR9gHtCq37Io5A5FBqnAcPMPNsxbIapgyNpm94zZqxHAYwDmuOSjukPUbZ8jstXOGmLfEs/p54556g==",
+  "dgSpecHash": "YjRPT3fiOnXzRsiIeP9tQzhMnTba6z+ZZveruqZtoUIj+2bhVOe+aPg7B48UGgft5TL88ClEPStqvoyCOyBLTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Artur Dias\\Documents\\Projetos\\DynamicInteraction\\DynamicInteraction\\DynamicInteraction\\DynamicInteraction.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\Artur Dias\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Artur Dias\\.nuget\\packages\\microsoft.windows.compatibility\\5.0.0\\microsoft.windows.compatibility.5.0.0.nupkg.sha512",
     "C:\\Users\\Artur Dias\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Artur Dias\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Users\\Artur Dias\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.linux-arm.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
     "C:\\Users\\Artur Dias\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.linux-arm64.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
     "C:\\Users\\Artur Dias\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.linux-x64.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
@@ -97,6 +98,16 @@
       "warningLevel": 1,
       "message": "O pacote 'LiveCharts.Wpf 0.9.7' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MvvmLightLibs 5.4.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MvvmLightLibs",
       "targetGraphs": [
         "net5.0-windows7.0"
       ]

@@ -4,14 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DynamicInteraction.Views" 
-        xmlns:viewmodels="clr-namespace:DynamicInteraction.ViewModels" 
+        xmlns:viewmodels="clr-namespace:DynamicInteraction.ViewModels" xmlns:i="http://schemas.microsoft.com/xaml/behaviors" xmlns:cal="http://www.caliburnproject.org"
         d:DataContext="{d:DesignInstance Type=viewmodels:ShellViewModel}"
         mc:Ignorable="d"
-        Title="ShellView" Height="450" Width="800">
+        Title="ShellView" MinHeight="250" MinWidth="450" MaxHeight="350" MaxWidth="550">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
@@ -20,13 +21,26 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
-        <ItemsControl Grid.Column="1" Grid.Row="1" ItemsSource="{Binding CheckBoxModel}">
+        <ItemsControl Grid.Column="1" Grid.Row="1" ItemsSource="{Binding CheckBoxModel}" HorizontalAlignment="Center" VerticalAlignment="Center">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked}"></CheckBox>
+                    <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked}" >
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Unchecked">
+                                <cal:ActionMessage MethodName="Click">
+                                </cal:ActionMessage>
+                            </i:EventTrigger>
+                            <i:EventTrigger EventName="Checked">
+                                <cal:ActionMessage MethodName="Click">
+                                </cal:ActionMessage>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                        
+                    </CheckBox>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
         <ContentControl Grid.Row="2" Grid.Column="1" x:Name="CartesianGraph"/>
+        <Button Grid.Column="2" Grid.Row="1" VerticalAlignment="Bottom" FontSize="8" x:Name="Click">Ok</Button>
     </Grid>
 </Window>
