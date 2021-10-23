@@ -21,7 +21,7 @@
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" TextWrapping="Wrap">
             </TextBlock>
-            <lvc:CartesianChart Grid.Row="2" DataTooltip="{x:Null}" Hoverable="False" >
+            <lvc:CartesianChart Grid.Row="2" DataTooltip="{x:Null}" Hoverable="False" DisableAnimations="True">
                 <lvc:CartesianChart.AxisY>
                     <lvc:Axis Foreground="DodgerBlue" />
                     <lvc:Axis Foreground="IndianRed" Position="RightTop">

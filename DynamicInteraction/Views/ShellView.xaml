@@ -41,6 +41,6 @@
             </ItemsControl.ItemTemplate>
         </ItemsControl>
         <ContentControl Grid.Row="2" Grid.Column="1" x:Name="CartesianGraph"/>
-        <Button Grid.Column="2" Grid.Row="1" VerticalAlignment="Bottom" FontSize="8" x:Name="Click">Ok</Button>
+        
     </Grid>
 </Window>
